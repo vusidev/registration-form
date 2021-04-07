@@ -1,0 +1,85 @@
+* {
+padding: 0;
+margin: 0;
+}
+ 
+body {
+font-size: 17px;
+font-family: sans-serif;
+background: white;
+}
+
+wrapper {
+background: silver;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+h1 {
+font-family: monospace;
+font-size: 35px;
+margin-top: 15px;
+text-align: center;
+}
+
+.field-input input {
+padding: 15px;
+width: 80%;
+outline: none;
+border: 1px solid #000;
+border-radius: 2px;
+margin-left: 15px;
+}
+
+.field-input input:hover {
+border: 1px solid #6698FF;
+}
+
+label {
+position: relative;
+left: 15px;
+}
+
+.button input {
+width: 80%;
+padding: 15px;
+font-size: 16px;
+font-family: "serif", sans-serif;
+background: #737CA1;
+outline: none;
+border: 1px solid #000;
+border-radius; 2px;
+text-transform: uppercase;
+color: #fff;
+position: relative;
+left: 15px;
+}
+
+.button input:hover {
+border: 1px solid #fff;
+}
+
+#error1, #error2, #error3, #error4, #error5, #error7 {
+font-size: 12px;
+font-family: serif;
+color: red;
+position: relative;
+left: 15px;
+}
+  .checkbox label {
+font-size: 17px;
+display: inline-block;
+padding-top: -15px;
+}
+
+ .checkbox input {
+ height: 18px;
+ width: 18px;
+ cursor: pointer;
+ display: inline-block;
+position: relative;
+left: 15px;
+ }
+
+ 

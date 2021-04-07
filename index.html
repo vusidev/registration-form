@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration form</title> 
+<meta charset="utf-8"> 
+<http-equiv="X-UA-compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+<h1>Create Account</h1><br><br>
+
+<form action="/action_page.php" onsubmit="return validate()">
+<div class="field-input">
+<label>First Name</label><br>
+<input type="text" placeholder="Enter your firstname" id="fname">
+<div id="error1"></div>
+</div><br>
+
+
+<div class="field-input">
+<label>Last Name</label><br>
+<input type="text" placeholder="Enter your lastname" id="lname">
+<div id="error2"></div>
+</div><br>
+
+
+<div class="field-input">
+<label>Email</label><br>
+<input type="text" placeholder="Enter your email" id="email">
+<div id="error3"></div>
+</div><br>
+
+
+<div class="field-input">
+<label>Password</label><br>
+<input type="password" placeholder="Enter your password" id="pwd" autocompleteoff">
+<div id="error4"></div>
+</div><br>
+
+
+<div class="field-input">
+<label>Re-type password</label><br>
+<input type="password" placeholder="Enter your name" id="pwd2" autocompleteoff">
+ <div id="error5"></div>
+</div><br>
+
+
+<div class="checkbox">
+<input type="checkbox" id="agree" value="agree">
+<label>Agree terms & conditions</label>
+<span class="checkmark"></span>
+<div id="error7"></div>
+</div><br>
+
+
+<div class="button">
+<input type="submit" value="Register" onclick="return validate()">
+</div>
+</form><br><br>
+</div>
+<script type="text/javascript" src="main.js"> 
+</script>
+
+
+</body>
+</html>
